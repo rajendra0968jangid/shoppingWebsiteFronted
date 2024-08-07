@@ -6,6 +6,7 @@ function Navbar() {
     <>
      <h1>Navbar</h1>
      <h1>Navbar</h1>
+     <p>hello p tag</p>
     </>
   )
 }
