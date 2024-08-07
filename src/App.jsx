@@ -1,12 +1,12 @@
-import { useState } from 'react'
-
+import { useState } from "react";
+import Navbar from "./Components/Navbar";
 function App() {
-
   return (
     <>
-     <h1>rajendra</h1>
+      <h1>rajendra</h1>
+      <Navbar />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
