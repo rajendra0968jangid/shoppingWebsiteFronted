@@ -6,6 +6,7 @@ import Fotter from "./Components/Fotter";
 import Signup from "./Components/Signup";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Login from "./Components/Login";
+import ItemsForm from "./Components/ItemsForm";
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
           <Route path="/carsouel" element={<Carsouel />} />
           <Route path="/fotter" element={<Fotter />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/itemform" element={<ItemsForm />} />
         </Routes>
       </Router>
     </>
